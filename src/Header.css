@@ -1,0 +1,23 @@
+.header-nav {
+  border: 1px solid black;
+  margin: 1px;
+  padding: 2px 2px;
+  text-align: center;
+  background-color: darkslategrey;
+}
+.el {
+  display: inline-block;
+  /* border: 1px solid red; */
+  padding: 10px 150px;
+  vertical-align: middle;
+}
+.el li {
+  padding: 10px;
+  cursor: pointer;
+  color: aliceblue;
+  list-style-type: none;
+}
+.el li:hover {
+  background: white;
+  color: blue;
+}

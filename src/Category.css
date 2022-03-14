@@ -1,0 +1,32 @@
+.product-main {
+  padding: 10x;
+}
+.card {
+  margin: 10px;
+  padding: 10px;
+  width: 250px;
+  height: 400px;
+  box-shadow: 5px 5px 10px #cccc;
+}
+.card > img {
+  align-items: center;
+  margin: 5px;
+  width: 70%;
+  height: 50%;
+  border-radius: 5px;
+}
+.card > h4 {
+  margin: 5px;
+  padding: 5px;
+}
+.card > p {
+  padding: 3px;
+  font-family: "Courier New", Courier, monospace;
+}
+.card:hover {
+  box-shadow: 10px 10px 20px #cccc;
+}
+.link-url {
+  text-decoration: none;
+  color: blue;
+}
