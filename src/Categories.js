@@ -1,5 +1,4 @@
 import React from "react";
-// import{NavLink} from 'react-router-dom'
 import "./Category.css";
 import Category from "./Category.js";
 import { useEffect, useState } from "react";

@@ -37,13 +37,6 @@ const ProductDetail = () => {
     fetchHandler();
   }, []);
 
-  //   const [inputs, setInputs] = useState({
-  //     name: "",
-  //     description: "",
-  //     quantity: 1,
-  //     price: 1,
-  //     image: "",
-  //   });
   const handleChange = (e) => {
     setInputs((prevState) => ({
       ...prevState,
